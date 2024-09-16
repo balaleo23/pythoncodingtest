@@ -1,7 +1,7 @@
-#amount_to_be_converted
-#validation_amount
-#currency_selection
-#target_Currency after the conversion
+#get amount
+#check_currency
+#calculation
+
 
 currency_list = ('usd','eur','cad')
 
@@ -40,7 +40,9 @@ def convert( amount,source_currency,target_currency):
 amount = get_amount()
 source_currency = check_currency("source_currency")
 target_currency = check_currency("target_currency")
-converted_amount = convert(amount,source_currency=source_currency, target_currency= target_currency)
+converted_amount = convert(amount,
+                        source_currency=source_currency, 
+                        target_currency= target_currency)
 
 print(f'{amount} {source_currency} is equal to {converted_amount:.2f} of {target_currency}')
 
