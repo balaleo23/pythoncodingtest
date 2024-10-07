@@ -12,7 +12,9 @@ def write_text(file_name):
 def main():
     file_name = input("Enter the Filename to open or create: ").strip()
     if (os.path.isfile(file_name)):
-        with open(f"{file_name}", "a") as file_name:
+        with open(f"{file_name}", 'a+') as file_name:
+            file_name.seek(0)
+            print(file_name.read())
             write_text(file_name)
         # print("file already exisits")
         
