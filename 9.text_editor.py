@@ -7,7 +7,7 @@ def write_text(file_name):
         text= input()
         if text == "SAVE" or text == "save":
            return
-        file_name.write(text+'\n') 
+        file_name.write('\n'+text) 
 
 def main():
     file_name = input("Enter the Filename to open or create: ").strip()
