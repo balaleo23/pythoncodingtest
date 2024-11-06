@@ -10,4 +10,5 @@ _Python Exercises_
 6. Quize_Game.py Concepts Learnt how to find the data structure with the requirement given
 7. tictac.py Concepts learnt struggled to break down the concepts into simple component and had good understanding and the importance of the psuedocode and clubbing same function into common functions
 8. To_do_list importance of modularising code and before start working using psuedocode was effective need to improve the looping and debugging skills[refer this module](8.to_do_list.py)
-9. [Text Editor](9.text_editor.py) File handling including reading and writing 10.[pigdicerolling] logic building based on the internal loop structure logic based on the while loop
+9. [Text Editor](9.text_editor.py) File handling including reading and writing.
+10. [pigdicerolling.py](10.1.moshsolutionpigdice.py) helped to understand the actual way of using variable and swap it based on the context .
