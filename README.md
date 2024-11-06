@@ -12,3 +12,7 @@ _Python Exercises_
 8. To_do_list importance of modularising code and before start working using psuedocode was effective need to improve the looping and debugging skills[refer this module](8.to_do_list.py)
 9. [Text Editor](9.text_editor.py) File handling including reading and writing.
 10. [pigdicerolling.py](10.1.moshsolutionpigdice.py) helped to understand the actual way of using variable and swap it based on the context .
+
+11.[cows_and_bulls_game](11.cows_and_bulls_game.py) helped me to understand the structure of the code better . given me some confidence in fixing the logics. lesson were introduced about list comprehension for the better clean code.
+
+12.[password_strength checker](12.2.password_strength_mosh.py) Using nested if loops and how to increment the values based on the multiple conditions
