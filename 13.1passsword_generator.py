@@ -26,9 +26,9 @@ def generateword(length,include_uppercase, include_numbers, include_special):
 def main ():
 
     length =  int(input("Enter Password Length: "))
-    include_uppercase =  input("Include upperCase letter?(y/n): ")
-    include_numbers = input("Include numbers?(y/n): ")
-    include_special = input("Include Special Characters? (y/n): ")
+    include_uppercase = str (input("Include upperCase letter?(y/n): "))
+    include_numbers = str( input("Include numbers?(y/n): "))
+    include_special = str(input("Include Special Characters? (y/n): "))
 
     word_generated = generateword(length, include_uppercase, include_numbers, include_special)
     print(word_generated)
