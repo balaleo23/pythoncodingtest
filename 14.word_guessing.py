@@ -11,20 +11,31 @@ import random
 
 words = ["python", "Astronaut","Polymorphism"]
 
-
-def main():
-    random.shuffle(words)
-    newword = words[0]
+def show_letters(words):
+    newword = random.choice(words)
     print(newword)
     empty = ""
     for i in range(1, len(newword)):
         empty += "".join("_")
-
     print(empty)
+    return(empty, newword)
+
+def main():
+    
+    empty , newword = show_letters(words)
     wrong_guess = 0
 
-    while wrong_guess< 6:
+    while wrong_guess<=6:
+
+        if(empty.lower() == newword.lower()):
+            #print(empty.rfind("_"))
+            print("Won")
+            break 
+        
         guess_letter = (input("Guess the letter: "))
+        
+        
+        
 
         try:
             if len(guess_letter) > 1 :
@@ -43,9 +54,8 @@ def main():
                 else:
                     print("letter not found")
                     wrong_guess += 1
-                if(empty == newword):
-                        print("Won")
-                        break  
+                
+                 
             else:
                 raise ValueError
 
